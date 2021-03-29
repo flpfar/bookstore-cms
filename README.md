@@ -16,7 +16,7 @@ Get a local copy of the file. Clone with HTTPS following the steps below.
 
 - Copy and paste the command below in your terminal and press enter from your keyboard.
 ```
-git clone 
+git clone https://github.com/Zubenna/my-bookstore-project.git
 ```
 ## Access Project Folder 
 - Depending on where the project files are downloaded to, either Hard Disk(HDD), Desktop or Documents directory in your computer after completing the step above.
@@ -36,16 +36,12 @@ npm start
 ```
 - Once the server is fully started, you will see the project opening a different tab on your browser at port http://localhost:3000/. The page now displays the calculator app built with react.js. You can use the calculator now.
 
-## Calculator Logic
-Two files, calculate.js and operate.js are created inside the logic directory. The calculate.js takes two arguments, an object, calcData, and buttonName. The calcData object has total, next, and operation as properties. This function manipulates the properties of the calcData object using the buttonName supplied to it. If the buttonName includes any of ['+', '-', '÷', 'X', '%'], It calls the operate.js function which will use the operation name to calculate the total using the Big.js methods. The operate function implements basic mathematical calculation which includes percentage, multiplication, division, addition, and subtraction.
 
 ## Live Version
 Launch live version.
-- [Launch App](https://calculator-zubenna.herokuapp.com/)
+- [Launch App]()
 
 ## Testing
-React testing framework jest was used in testing this project.
-In the component directory, within the src directory, __test__ folder is created which contains all the components tests. Also, __test__ folder was created in the logic folder which contains tests for the calculate.js file which is the main app logic.
 
 ## Run Test
 To run the test, navigate to the root of the project as explained above in (Set up the project locally). Run the command,
