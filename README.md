@@ -39,24 +39,14 @@ npm start
 
 ## Live Version
 Launch live version.
-- [Launch App]()
+- [Launch App](https://zubenna-bookstore.herokuapp.com/)
 
 ## Testing
 
 ## Run Test
-To run the test, navigate to the root of the project as explained above in (Set up the project locally). Run the command,
-
-```
-npm test
-```
-from the terminal. Jest will run all the tests written for this project. Result of the test will be displayed in the terminal for your assesment.
 
 ## Built With
-- JavaScript
 - React.js
-- CSS
-- Notable Packages, Big.js, etc
-- Testted with jest.
 
 ## Author
 👤 **Nnamdi Emelu**
@@ -66,7 +56,7 @@ from the terminal. Jest will run all the tests written for this project. Result 
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/Zubenna/calculator-react/issues/new)
+Feel free to check the [issues page](https://github.com/Zubenna/my-bookstore-project/issues)
 
 ## 👍 Show Your Support
 Kindly star ⭐️ this project, if you like it!
