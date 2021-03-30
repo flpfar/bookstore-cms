@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Bookstore CMS Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Preview
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+## Project SetUp
+Get a local copy of the file. Clone with HTTPS following the steps below.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### For Windows
+- In your search box, type cmd, click on cmd to open the command prompt.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### For Linux, Mac OS
+- In your search box, type terminal, click on the terminal to launch it.
 
-### `npm test`
+- Copy and paste the command below in your terminal and press enter from your keyboard.
+```
+git clone https://github.com/Zubenna/my-bookstore-project.git
+```
+## Access Project Folder 
+- Depending on where the project files are downloaded to, either Hard Disk(HDD), Desktop or Documents directory in your computer after completing the step above.
+- Double click on the folder calculator to open it.
+- Inside the folder, right-click and click on terminal or cmd depending on your Operating System to open it.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Set Up Project Locally in Your Computer
+- In the cmd or terminal, type the command below;
+```
+npm install
+```
+- Wait for some time to install all the app packages.
+- Once the installation is completed.
+- Type the command below in your cmd or terminal to start the project locally. Wait for some time.
+```
+npm start
+```
+- Once the server is fully started, you will see the project opening a different tab on your browser at port http://localhost:3000/. The page now displays the calculator app built with react.js. You can use the calculator now.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Version
+Launch live version.
+- [Launch App](https://zubenna-bookstore.herokuapp.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Testing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run Test
 
-### `npm run eject`
+## Built With
+- React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Author
+👤 **Nnamdi Emelu**
+- Github: [zubenna](https://github.com/zubenna)
+- Twitter: [@zubenna](https://twitter.com/zubenna)
+- Linkedin: [nnamdi-emelu](https://www.linkedin.com/in/nnamdi-emelu/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Zubenna/my-bookstore-project/issues)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 👍 Show Your Support
+Kindly star ⭐️ this project, if you like it!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :clap: Acknowledgements
+- [Microverse](https://www.microverse.org/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+This project is [MIT](./LICENSE) licensed.
