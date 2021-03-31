@@ -1,7 +1,13 @@
 # Bookstore CMS Project
+This project entails building the frontend of a Bookstore application. This application helps the user to organize and manage books in their bookstore. The stages of development are covered in the milestone below.
+
+### Milestone 1
+This involves setting up the project files and directories. Installed all required packages and hosting the app on Heroku.
+
+### Milestone 2
+This entails setting up and arranging files and directories used in this project. Various components used in this application are implemented as required by the project specification. The components include BookForm, BookList, App, and Book. Reducers and Actions are also implemented. The redux store was also initialized.
 
 ## Preview
-
 
 ## Features
 
@@ -47,6 +53,11 @@ Launch live version.
 
 ## Built With
 - React.js
+- JavaScript
+- React-DOM
+- React-Create-App
+- Redux
+- npm
 
 ## Author
 👤 **Nnamdi Emelu**
