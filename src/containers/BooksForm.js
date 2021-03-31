@@ -13,7 +13,7 @@ const CATEGORIES = [
 const BooksForm = () => (
   <form>
     <h2>Title</h2>
-    <input type="text" name="title"/>
+    <input type="text" name="title" />
     <h2>Category</h2>
     <select name="category">
       {CATEGORIES.map(category => (
