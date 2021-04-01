@@ -7,6 +7,10 @@ This involves setting up the project files and directories. Installed all requir
 ### Milestone 2
 This entails setting up and arranging files and directories used in this project. Various components used in this application are implemented as required by the project specification. The components include BookForm, BookList, App, and Book. Reducers and Actions are also implemented. The redux store was also initialized.
 
+### Milestone 3
+In this milestone, i connected the Remove_Book action to the redux store.
+I implemented, redux actions to handle creating new book and removing books from the application. Remove Book button is now displayed next to each book row in the BooksList component.
+
 ## Preview
 
 ## Features
