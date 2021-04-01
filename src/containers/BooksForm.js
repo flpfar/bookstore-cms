@@ -19,7 +19,7 @@ class BooksForm extends Component {
     this.state = {
       id: Math.floor(Math.random() * 500),
       title: '',
-      category: CATEGORIES[0]
+      category: CATEGORIES[0],
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -35,34 +35,30 @@ class BooksForm extends Component {
         category: e.target.value,
       });
     }
+    this.setState({
+      id: Math.floor(Math.random() * 500),
+    });
   }
 
   handleSubmit(e) {
     const { title } = this.state;
-    const {createBook } = this.props;
+    const { createBook } = this.props;
     e.preventDefault();
-    if(title) {
+    if (title) {
       createBook(this.state);
-      this.reset();
     }
-  }
-
-  reset() {
-    this.setState({
-      id: Math.ceil(Math.random() * 500),
-      title: '',
-      category: CATEGORIES[0],
-    });
+    document.getElementById('inputTitle').value = '';
+    document.getElementById('selectOpt').value = 'Action';
   }
 
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
         <h2>Title</h2>
-        <input type="text" name="title" value={title} onChange={this.handleChange}/>
+        <input type="text" name="title" id="inputTitle" value={this.title} onChange={this.handleChange} />
         <h2>Category</h2>
-        <select name="category" value={category} onChange={this.handleChange}>
-          {CATEGORIES.map((category) => (
+        <select name="category" id="selectOpt" value={this.category} onChange={this.handleChange}>
+          {CATEGORIES.map(category => (
             <option key={category}>{category}</option>
           ))}
         </select>
@@ -80,6 +76,6 @@ const mapDispatchToProps = dispatch => ({
 
 BooksForm.propTypes = {
   createBook: PropTypes.func.isRequired,
-}
+};
 
 export default connect(null, mapDispatchToProps)(BooksForm);

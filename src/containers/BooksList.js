@@ -26,12 +26,12 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   removeBook: book => {
     dispatch(removeBook(book));
-  }
+  },
 });
 
 BooksList.propTypes = {
   books: PropTypes.instanceOf(Array).isRequired,
+  removeBook: PropTypes.func.isRequired,
 };
-
 
 export default connect(mapStateToProps, mapDispatchToProps)(BooksList);
