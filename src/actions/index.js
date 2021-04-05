@@ -14,7 +14,7 @@ const removeBook = book => ({
 
 const filterOurBook = category => ({
   type: CHANGE_FILTER,
-  category,
+  filter: category,
 });
 
 export {
