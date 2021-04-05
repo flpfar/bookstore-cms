@@ -1,7 +1,6 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-const CategoryFilter = ({ filterBook }) => {
+const CategoryFilter = props => {
   const CATEGORIES = [
     'All',
     'Action',
@@ -12,23 +11,30 @@ const CategoryFilter = ({ filterBook }) => {
     'Learning',
     'Sci-Fi',
   ];
-  const mapCategories = CATEGORIES.map(bookCat => (
-    <option value={bookCat} key={bookCat}>
-      {bookCat}
-    </option>
-  ));
+
+  const { handleFilter } = props;
+
+  const handleClick = event => {
+    const { value } = event.target;
+    if (value === 'All') {
+      handleFilter(null);
+    } else {
+      handleFilter(value);
+    }
+  };
+
   return (
     <div>
-      <select onChange={e => filterBook(e)}>
-        <option disabled selected>Select</option>
-        {mapCategories}
+      Filter By Category:
+      <select name="category" id="select" onChange={handleClick}>
+        {CATEGORIES.map(category => <option value={category} key={category}>{category}</option>)}
       </select>
     </div>
   );
 };
 
 CategoryFilter.propTypes = {
-  filterBook: PropTypes.func.isRequired,
+  handleFilter: PropTypes.func.isRequired,
 };
 
 export default CategoryFilter;
